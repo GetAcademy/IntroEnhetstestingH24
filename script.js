@@ -14,6 +14,3 @@ function formatHeader(text, starCount) {
 
 
 
-
-function translateText(text) {
-}
