@@ -10,7 +10,7 @@
             user-select: none;
         }
     </style>
-    <script src="controller.js"></script>
+    <script src="clickerController.js"></script>
 </head>
 
 <body>
@@ -33,19 +33,7 @@
             `;
         }
 
-        // controller
-        function doClick() {
-            points += pointsPerClick;
-            smileyIndex = 1 - smileyIndex;
-            updateView();
-        }
 
-        function buyUpgrade() {
-            if (points < 10) return;
-            points -= 10;
-            pointsPerClick++;
-            updateView();
-        }
     </script>
 </body>
 

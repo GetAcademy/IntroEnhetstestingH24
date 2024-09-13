@@ -15,3 +15,5 @@ Enhetstesting
 3: Funksjon for å oversette til røverspråk
  - En liten smak av testdrevet utvikling
 4: Testing av controller-funksjoner i et MVC-oppsett
+
+- spare tid ved feilretting og implementasjon
