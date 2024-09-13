@@ -1,7 +1,19 @@
-function translateText(text) {
+function formatHeader(text, starCount) {
+    const stars = '*'.repeat(starCount);
+    let space = starCount ? ' ' : '';
+    return stars + space + (text ?? '') + space + stars;
 }
 
-function formatHeader(text, startCount){
-    const stars = '*'.repeat(startCount);
-    return `${stars} ${text} ${stars}`;    
+
+
+
+
+
+
+
+
+
+
+
+function translateText(text) {
 }
