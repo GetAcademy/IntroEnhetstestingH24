@@ -16,11 +16,18 @@
         var pointsPerClick;
         var smileyIndex;
 
+        function init(p, ppc, i) {
+            points = p;
+            pointsPerClick = ppc;
+            smileyIndex = i;
+        }
+        
         // dummy view
         function updateView() { }
 
         QUnit.test('Normal click', function (assert) {
             // arrange
+            // init(0,1,0);
             points = 0;
             pointsPerClick = 1;
             smileyIndex = 0;
